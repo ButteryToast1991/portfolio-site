@@ -1,0 +1,87 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(skyblue, white);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+nav{
+    text-align: center;
+    background-color: darkslategrey;
+    top: 0;
+    margin: 0 auto;
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+}
+
+li a{
+    color: white;
+    text-decoration: inherit;
+}
+
+.header h1, h3{
+    text-align: center;
+    font-size: 2em;
+}
+
+.header img{
+    margin: auto 42%;
+    border-radius: 50%; 
+}
+
+
+#about h2{
+    text-align: center;
+}
+
+#about p{
+    margin: auto;
+    padding: auto 15px;
+}
+
+#projects h2{
+    text-align: center;
+}
+
+#projects img{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.project-box{
+    margin: auto 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+.project-box a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+#contact a{
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+    font-size: .9em;
+}
